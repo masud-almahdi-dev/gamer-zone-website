@@ -31,6 +31,7 @@ html {
     font-size: 1.25rem;
     font-weight: 600;
     max-width: max-content;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -43,6 +44,7 @@ html {
     color: white;
     font-size: 1.25rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 h3 {
@@ -608,6 +610,7 @@ overflow-x: hidden;}
     font-size: 1.25rem;
     font-weight: 600;
     max-width: max-content;
+    cursor: pointer;
 }
 @media screen and (max-width:1440px){
     .careers-container{
