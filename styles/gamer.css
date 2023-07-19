@@ -203,6 +203,7 @@ main .section-description {
     position: absolute;
     top: auto;
     left: 0;
+    z-index: -1;
 }
 
 .play-like-texts {
@@ -736,6 +737,9 @@ footer .terms{
 footer .cpy{
     margin: 0;
     margin-bottom: 8.13rem;
+}
+footer .social img{
+    cursor: pointer;
 }
 @media screen and (min-width:922px){
     footer .cpy br{
