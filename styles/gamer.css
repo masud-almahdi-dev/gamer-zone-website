@@ -429,6 +429,9 @@ main .section-description {
     left: auto;
     translate: 100% calc(-12.5rem - 50%);
 }
+.funny-videos-container .video .img-container:hover .watchnow img{
+    cursor: pointer;
+}
 
 @media screen and (max-width:992px) {
     .funny-videos-container .section-videos {
