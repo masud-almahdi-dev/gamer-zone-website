@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-primary{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.stunning-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* header styles */
+body > header{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+header .header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    padding: 38px 0px;
+}
+header .logo-container, header .links, header .links ul  {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+header .logo-container{
+    gap: 20px;
+    height: min-content;
+}
+header .logo-container img{
+    height: 40px;
+}
+header .links a{
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+}
+header .links ul {
+    list-style-type: none;
+}
+header .links .follow-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 16px 24px;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: #0b02231a;
+}
+header .links .follow-us .icons-container{
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width:576px){
+    body>header{
+        box-shadow: none;
+    }
+    body > header, header .header-nav, header .links, header .links ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .links ul{
+        gap: 36px;
+    }
+    header .header-nav{
+        gap: 62px;
+        margin-top: 103px;
+        margin-bottom: 78px;
+        padding: 0;
+    }
+    header .links{
+        gap: 62px;
+    }
+}
+
+/* play like section */
+.play-like .play-like-sub-headline{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.play-like .headline{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
